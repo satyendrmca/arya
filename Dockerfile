@@ -5,7 +5,7 @@ FROM openjdk:8
 WORKDIR /app
 
 # Copy the jar file into our app
-COPY ./target/demo-1-0.0.1-SNAPSHOT.jar /app
+COPY /target/demo-1-0.0.1-SNAPSHOT.jar /app
 
 # Exposing port 9090
 EXPOSE 9090
