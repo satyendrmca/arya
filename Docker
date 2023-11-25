@@ -1,5 +1,5 @@
 # Fetching latest version of Java
-FROM openjdk:20
+FROM openjdk:8
  
 # Setting up work directory
 WORKDIR /app
