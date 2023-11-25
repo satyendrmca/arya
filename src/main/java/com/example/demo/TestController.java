@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class TestController {
 
 	
-	@GetMapping("test")
+	@GetMapping("/test")
 	public String testController()
 	{
 		return "This is test for migration with jenkin ";
